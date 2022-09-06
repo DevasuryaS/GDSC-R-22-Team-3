@@ -1,0 +1,65 @@
+body {
+    background-color: #4D4D4D;
+}
+
+form {
+    background-color: #1A1A1A;
+
+}
+
+
+.loginform {
+    margin-right: 50%;
+    padding-right: 0%;
+    width: 50%;
+
+}
+
+.signupform {
+    display: inline-block;
+    float: right;
+
+}
+
+img {
+    height: 89.7px;
+    width: 87px;
+    display: inline-block;
+    margin-left: .5%;
+    margin-top: .5%;
+    margin-bottom: .5%;
+}
+
+.text {
+    color: #FFFFFF;
+    font-family: poppins;
+}
+
+input::placeholder {
+    font-family: poppins;
+    text-align: center;
+}
+
+nav {
+    background-color: #1A1A1A;
+    display: block;
+
+}
+
+.navbutt {
+    color: #FFFFFF;
+    font-family: poppins;
+    display: inline-block;
+    margin-right: .5%;
+
+}
+
+#coname {
+    display: inline-block;
+    margin-right: 2%;
+
+}
+
+.forms {
+    display: inline-block;
+}

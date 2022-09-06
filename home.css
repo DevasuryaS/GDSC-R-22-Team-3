@@ -1,0 +1,48 @@
+body {
+    background-color: #4D4D4D;
+}
+
+.text {
+    color: #FFFFFF;
+    font-family: poppins;
+}
+
+.nav {
+    background-color: #1A1A1A;
+}
+
+.navtexts {
+    display: inline-block;
+}
+
+.navbutts {
+    display: inline;
+}
+
+#logoimg {
+    height: 89.7px;
+    width: 87px;
+    display: inline-block;
+    margin-left: .5%;
+    margin-top: .5%;
+    margin-bottom: .5%;
+}
+
+#signinbutt {
+    background-color: #1A1A1A;
+    border-color: #FFFFFF;
+    border-radius: 3px;
+
+}
+
+#signinbutt:hover {
+    background-color: #FFFFFF;
+    color: #1A1A1A;
+}
+
+#homeimg1 {
+    height: 100%;
+    width: 100%;
+    object-fit: fit;
+    margin-bottom: .5%;
+}

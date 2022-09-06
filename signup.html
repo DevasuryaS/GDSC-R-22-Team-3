@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GalactiGo | Login</title>
+
+    <script type="text/javascript">
+        /**/
+        function validate() {
+            var username = document.getElementById("username");
+            var password = document.getElementById("password");
+            var email = document.getElementById("email");
+
+            if (username.value.trim() == "" || password.value.trim() == "" || email.value.trim() == "") {
+                alert("Dont leave the credentials blank!");
+                return false;
+            }
+            else {
+                true;
+            }
+        }
+    </script>
+
+</head>
+
+<body>
+    <form onsubmit="return validate()" class="loginbox" action="home.html">
+        <h1>Sign Up</h1>
+        <input type="text" id="username" placeholder="your name">
+        <br>
+        <input type="text" id="email" placeholder="your e-mail">
+        <br>
+        <input type="password" id="password" placeholder="create password">
+        <br>
+        <!-- <input type="password" id="repassword" placeholder="Confirm Password">
+        <br> -->
+        <button onclick="validate()" type="submit" id="submit">Create account</button>
+        <br>
+        <a href="login.html">Already a Traveller here? Login</a>
+    </form>
+</body>
+
+</html>
